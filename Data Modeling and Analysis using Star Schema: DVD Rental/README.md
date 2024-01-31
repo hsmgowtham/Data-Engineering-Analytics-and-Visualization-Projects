@@ -2,7 +2,12 @@
 
 This project demonstrates the implementation of a star schema for efficient data modeling and analysis. The star schema organizes data into dimension and fact tables, providing substantial advantages in terms of query speed and efficiency.
 
+## Database and Tools
+- PostgreSQL
+- pgAdmin4
+
 ## Traditional 3NF ER Diagram
+[Schema credit to](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
 ![image](https://github.com/hsmgowtham/SQL-Data-Analysis-Visualization-Modeling-and-Design-Projects/assets/123358865/90be1e00-b61a-4a9e-a72f-9da81c0ab3a5)
 
 ## Star Schema
@@ -10,13 +15,7 @@ This project demonstrates the implementation of a star schema for efficient data
 
 
 
-## Prerequisites
 
-Before proceeding, make sure you have the following:
-
-1. **PostgreSQL Database Server:** Ensure PostgreSQL is installed on your system.
-
-2. **GUI Query Tool (Optional):** Install PGAdmin or any other GUI tool for querying the database.
 
 ## Loading the Sample Database
 
@@ -105,8 +104,33 @@ ORDER BY f.title, month, ci.city, revenue DESC;
 ```
 
 
-### Observations
+## Observations
 
 After running both queries and checking the time it takes to get results, it's clear that using the star schema makes queries much faster. This is especially important when dealing with a lot of data, making the star schema a top choice for data warehouses and databases used for analysis.
 
 The improved speed is thanks to the well-organized design of the star schema, which makes joining and combining data more efficient. This means queries are not only faster but also more responsive, providing quicker insights during analytical tasks.
+
+## Business Analysis Overview
+
+In addition to setting up the star schema for efficient data organization, I have conducted various business analyses to gain insights into the dataset. Below is an outline of the analyses performed:
+
+1. **Total Sales per Customer:**
+   - Aggregated sales amounts for each customer to understand individual customer contributions.
+
+2. **Total Sales per Movie:**
+   - Examined sales amounts for each movie to identify top-performing titles.
+
+3. **Monthly Sales Trend:**
+   - Analyzed the monthly trend of sales amounts to identify patterns over time.
+
+4. **Average Sales per Store:**
+   - Calculated the average sales amount per store to assess performance.
+
+5. **Most Active Customers:**
+   - Identified and ranked the most active customers based on the number of transactions.
+
+6. **Sales Amount on Weekends vs. Weekdays:**
+   - Investigated the variation in sales amounts between weekends and weekdays.
+
+Feel free to explore these analyses in detail by executing the provided [SQL queries](./scripts/analysis_queries.sql) using your preferred SQL client.
+
