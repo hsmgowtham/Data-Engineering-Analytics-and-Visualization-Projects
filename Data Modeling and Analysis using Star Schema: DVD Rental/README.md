@@ -101,7 +101,6 @@ GROUP BY f.title, month, ci.city
 ORDER BY f.title, month, ci.city, revenue DESC;
 ```
 
-Certainly, here's a simplified version:
 
 ### Observations
 
