@@ -150,3 +150,7 @@ In addition to setting up the star schema for efficient data organization, I hav
 
 Feel free to explore these analyses in detail by executing the provided [SQL queries](./scripts/analysis_queries.sql) using your preferred SQL client.
 
+## Data Source
+
+The sample database used in this project is sourced from [PostgreSQL Tutorial](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/).
+
