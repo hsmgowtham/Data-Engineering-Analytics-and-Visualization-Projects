@@ -1,5 +1,21 @@
 # Data Modeling and Analysis with Star Schema: DVD Rental
 
+## Table of Contents
+  * [Overview](#overview)
+  * [Database and Tools](#database-and-tools)
+  * [Traditional 3NF ER Diagram](#traditional-3nf-er-diagram)
+  * [Star Schema](#star-schema)
+  * [Loading the Sample Database](#loading-the-sample-database)
+    + [1. Create the dvdrental database](#1-create-the-dvdrental-database)
+    + [2. Restore the sample database from a tar file:](#2-restore-the-sample-database-from-a-tar-file-)
+    + [3. Verify the sample database:](#3-verify-the-sample-database-)
+  * [Performance Comparison: Star Schema vs. 3NF](#performance-comparison--star-schema-vs-3nf)
+    + [Star Schema Analysis](#star-schema-analysis)
+    + [3NF Schema Analysis](#3nf-schema-analysis)
+  * [Observations](#observations)
+  * [Business Analysis Overview](#business-analysis-overview)
+
+## Overview
 This project demonstrates the implementation of a star schema for efficient data modeling and analysis. The star schema organizes data into dimension and fact tables, providing substantial advantages in terms of query speed and efficiency.
 
 ## Database and Tools
