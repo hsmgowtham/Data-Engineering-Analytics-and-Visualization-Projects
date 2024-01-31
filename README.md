@@ -13,7 +13,7 @@ Compilation of SQL, Tableau, PySpark data analysis related projects and challeng
 
 ## Projects & Challenges
 
-### 1. [Data Modeling and Analysis with Star Schema: DVD Rental](./Data Modeling and Analysis using Star Schema: DVD Rental)
+### 1. [Data Modeling and Analysis with Star Schema: DVD Rental](./Data%20Modeling%20and%20Analysis%20using%20Star%20Schema:%20DVD%20Rental)
 
 
 This project showcases the implementation of a star schema for efficient data modeling and analysis using the DVD Rental sample database.
