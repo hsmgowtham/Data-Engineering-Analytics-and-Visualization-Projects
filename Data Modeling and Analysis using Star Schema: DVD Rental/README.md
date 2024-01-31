@@ -3,8 +3,11 @@
 This project demonstrates the implementation of a star schema for efficient data modeling and analysis. The star schema organizes data into dimension and fact tables, providing substantial advantages in terms of query speed and efficiency.
 
 ## Traditional 3NF ER Diagram
+![image](https://github.com/hsmgowtham/SQL-Data-Analysis-Visualization-Modeling-and-Design-Projects/assets/123358865/90be1e00-b61a-4a9e-a72f-9da81c0ab3a5)
 
 ## Star Schema
+![Dimensional Model drawio](https://github.com/hsmgowtham/SQL-Data-Analysis-Visualization-Modeling-and-Design-Projects/assets/123358865/74b9903e-a779-4265-9586-c2e537dcd0d7)
+
 
 
 ## Prerequisites
