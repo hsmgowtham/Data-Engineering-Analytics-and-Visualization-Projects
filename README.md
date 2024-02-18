@@ -9,7 +9,7 @@ Compilation of SQL, Tableau, PySpark data analysis related projects and challeng
 
 ### Tools
 - pgAdmin
-
+- AWS Redshift
 
 ## Projects & Challenges
 
@@ -28,3 +28,11 @@ This project showcases the implementation of a star schema for efficient data mo
   - Average sales per store
   - Most active customers
   - Sales amount on weekends vs. weekdays
+
+### 2. [AWS Redshift DataPipeline](./AWS%20Redshift%20DataPipeline)
+
+Repository containing scripts and configurations for implementing a DataPipeline on AWS Redshift, utilizing S3 as staging data storage. The pipeline moves data from S3 to Redshift for analysis and reporting purposes.
+
+- **Objective:**
+  - Implement a data pipeline for efficient data transfer from S3 to Redshift.
+
