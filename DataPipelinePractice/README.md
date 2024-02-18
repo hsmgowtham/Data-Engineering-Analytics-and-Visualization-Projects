@@ -1,5 +1,5 @@
 
-#AWS Redshift DataPipeline
+# AWS Redshift DataPipeline
 This repository contains scripts and configurations for implementing a DataPipeline on AWS Redshift, utilizing S3 as staging data storage. The pipeline moves data from S3 to Redshift for analysis and reporting purposes.
 
 ## Overview
@@ -11,7 +11,7 @@ Before setting up the pipeline, ensure the following prerequisites are met:
 1. **Install Boto3**: Python library for AWS SDK.
 2. **Install Psycopg2**: PostgreSQL adapter for Python.
 3. **Create a Role with S3 Full Access**: Assign this role to your Redshift cluster for accessing S3.
-4. **Create 'tickit-items' Bucket**: Create an S3 bucket named 'tickit-items' and upload data files from 'tickitdb' into it.
+4. **Create 'tickit-items' Bucket** : Create an S3 bucket named 'tickit-items' and upload data files from 'tickitdb' into it.
 5. Customize cluster.txt file and save it as **cluster.config**: Modify the cluster configuration file according to your Redshift cluster details.
 
 ## Usage
