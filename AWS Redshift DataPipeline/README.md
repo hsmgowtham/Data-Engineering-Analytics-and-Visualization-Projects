@@ -21,5 +21,5 @@ Before setting up the pipeline, ensure the following prerequisites are met:
 5. Run the provided scripts to initiate the data transfer process.
 
 ## Files
-Data Pipeline Practice.ipynb: Jupyter Notebook File for orchestrating the data pipeline process.
-cluster.config: Configuration file containing Redshift cluster details.
+1. Data Pipeline Practice.ipynb: Jupyter Notebook File for orchestrating the data pipeline process.
+2. cluster.config: Configuration file containing Redshift cluster details.
