@@ -36,4 +36,7 @@ This project focuses on building a robust data engineering pipeline to handle CO
 
 6. Build Tables: Build Dimensional Tables on Redshift and load data to Redshift
 
-6. Data Visualization: Visualize the analyzed data using visualization tools like Tableau or PowerBI for intuitive interpretation and decision-making.
+7. Data Visualization: Visualize the analyzed data using visualization tools like Tableau or PowerBI for intuitive interpretation and decision-making.
+
+## Dimensional Model
+![image](https://github.com/hsmgowtham/Data-Engineering-Analytics-and-Visualization-Projects/assets/123358865/f2b3761c-6f29-4939-a0a8-6b606c6e2e7e)
