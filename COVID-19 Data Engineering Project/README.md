@@ -3,6 +3,12 @@
 ## Overview
 This project focuses on building a robust data engineering pipeline to handle COVID-19 data. The pipeline incorporates various AWS services for data storage, extraction, transformation, and visualization.
 
+## Technologies Used
+- Amazon S3:
+- Amazon Glue: Fully Managed ETL(extract, transform, and load) service
+- Amazon Athena: An interactive query service that makes it easy to analyze data in Amazon S3 and other federated data sources using standard SQL.
+
+
 ## Architecture
 
 - Amazon S3: Utilized as the primary storage solution leveraging AWS Open Data for acquiring and storing the dataset.
@@ -20,12 +26,14 @@ This project focuses on building a robust data engineering pipeline to handle CO
 ## Usage
 1. Data Acquisition: Acquire COVID-19 dataset from AWS Open Data and store it in Amazon S3.
 
-2. Data Understanding: Utilize the Crawler to extract schema and pertinent information from the dataset.
+2. Data Understanding: Utilize the Crawler to extract schema, pertinent information from the dataset, and build Relational Data Model.
 
 3. Data Analysis: Conduct ad-hoc queries using Amazon Athena for insightful analysis of the data.
 
-4. Data Transformation: Employ Amazon Glue for transforming the data into a suitable format for downstream processing.
+4. Data Transformation: Run ETL job in python employing Amazon Glue, for transforming the data into a suitable format for downstream processing.
 
-5. Data Storage: Store the transformed data securely in Amazon Redshift within a VPC environment.
+5. Transformed Data Storage: Store the transformed data securely in S3.
+
+6. Build Tables: Build Dimensional Tables on Redshift and load data to Redshift
 
 6. Data Visualization: Visualize the analyzed data using visualization tools like Tableau or PowerBI for intuitive interpretation and decision-making.
