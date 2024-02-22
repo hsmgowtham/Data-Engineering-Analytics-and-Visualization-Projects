@@ -14,6 +14,13 @@ Before setting up the pipeline, ensure the following prerequisites are met:
 4. **Create 'tickit-items' Bucket** : Create an S3 bucket named 'tickit-items' and upload data files from 'tickitdb' into it.
 5. Customize cluster.txt file and save it as **cluster.config**: Modify the cluster configuration file according to your Redshift cluster details.
 
+## Technologies Used
+- Python
+- Amazon S3
+- Amazon Redshift
+- Amazon IAM
+- Amazon VPC
+
 ## Usage
 1. Clone this repository.
 2. Set up AWS credentials on your machine.

@@ -1,13 +1,24 @@
 # COVID-19 Data Engineering Project
 
 ## Overview
-This project focuses on building a robust data engineering pipeline to handle COVID-19 data. The pipeline incorporates various AWS services for data storage, extraction, transformation, and visualization.
+This project focuses on building a robust data engineering pipeline to handle COVID-19 data. The pipeline incorporates various AWS services for data storage, extraction,and transformation.
+
+## Prerequisites
+Before setting up the pipeline, ensure the following prerequisites are met:
+
+1. **Install Boto3**: Python library for AWS SDK.
+2. **Install Psycopg2**: PostgreSQL adapter for Python.
+3. **Create a Role with S3 Full Access**: Assign this role to your Redshift cluster for accessing S3.
+4. Customize cluster.txt file and save it as **cluster.config**: Modify the cluster configuration file according to your Redshift cluster details.
 
 ## Technologies Used
-- Amazon S3:
-- Amazon Glue: Fully Managed ETL(extract, transform, and load) service
-- Amazon Athena: An interactive query service that makes it easy to analyze data in Amazon S3 and other federated data sources using standard SQL.
-
+- Python
+- Amazon S3 
+- Amazon Glue
+- Amazon Athena
+- Amazon Redshift
+- Amazon IAM
+- Amazon VPC
 
 ## Architecture
 
@@ -34,9 +45,11 @@ This project focuses on building a robust data engineering pipeline to handle CO
 
 5. Transformed Data Storage: Store the transformed data securely in S3.
 
-6. Build Tables: Build Dimensional Tables on Redshift and load data to Redshift
+6. Use Athena Jobs to Run the script and load data to Redshift
 
-7. Data Visualization: Visualize the analyzed data using visualization tools like Tableau or PowerBI for intuitive interpretation and decision-making.
+## Files
+1. COVID-19 Data Engineering Project.ipynb: Jupyter Notebook File contains all necessary file operations, including data loading, processing, and analysis  required for this project.
+2. cluster.config: Configuration file containing AWS and Redshift cluster details.
 
 ## Dimensional Model
 ![image](https://github.com/hsmgowtham/Data-Engineering-Analytics-and-Visualization-Projects/assets/123358865/f2b3761c-6f29-4939-a0a8-6b606c6e2e7e)
