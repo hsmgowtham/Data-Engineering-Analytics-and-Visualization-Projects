@@ -1,4 +1,5 @@
 # Social Media App Database
+Build a PostgreSQL Database for Social Media: Manage user profiles, friendships, posts, likes, and comments efficiently.
 
 ## Install PostgreSQL on Ubuntu
 
