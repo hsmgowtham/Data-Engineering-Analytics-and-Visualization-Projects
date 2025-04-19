@@ -1,1 +1,0 @@
-# SQL-Data-Analysis-Visualization-Modeling-and-Design-Projects
